@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <>
       <Navbar />
-      <div className="flex w-full h-screen bg-slate-400">
+      <div className="flex w-full h-screen bg-slate-300">
         <div className="flex-auto my-28 ">
           <h1 className="text-5xl pl-6 mt-20 ">
             Namaste <span className="rounded-full text-4xl">🙏</span>,
