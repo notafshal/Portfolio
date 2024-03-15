@@ -90,9 +90,9 @@ const About = () => {
           <div className="mt-3 bg-gray-200 h-min rounded-md ml-5 mt-3 text-3xl text-center">
             <div className="bg-orange-300 rounded-md ">Projects</div>
             <div>Movie Suggester</div>
-            <div>Movie Suggester</div>
-            <div>Movie Suggester</div>
-            <div>Movie Suggester</div>
+            <div>NoteApp</div>
+            <div>BlogApp</div>
+            <div>PhoneBook</div>
             <button className="bg-red">
               <Link to="/projects">For details</Link>
             </button>
