@@ -2,6 +2,8 @@ import { Link } from "react-router-dom";
 import photo from "../assets/a.jpg";
 import { FaFacebook, FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa6";
 import Navbar from "../components/Navbar";
+import DownloadCv from "../components/DownloadCv";
+
 const Home = () => {
   return (
     <>
@@ -15,6 +17,14 @@ const Home = () => {
             I am <span className="font-bold">Afshal Maharjan</span>
           </h2>
           <h3 className="pl-6 pt-3 text-3xl">Full-Stack Web Developer</h3>
+          <div className="pl-6">
+            <button
+              className=" bg-orange-400 rounded p-2 mt-2 text-white"
+              onClick={DownloadCv}
+            >
+              Download CV
+            </button>
+          </div>
           <div className="pl-3 pt-4 mt-8 flex">
             <Link
               target="_blank"

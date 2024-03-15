@@ -19,12 +19,12 @@ const About = () => {
       <div className="flex bg-slate-300 pl-6 w-full h-screen">
         <div>
           <div className="bg-gray-200 h-min rounded-md mt-3 ">
-            <div className="text-center text-lg font bold">
+            <div className="text-center text-lg font-bold bg-orange-300 rounded-md ">
               As a Web Developer
             </div>
-            <p className="w-96 mt-2 mb-4 text-center ">
+            <p className="w-96 mt-2 mb-4 ">
               As a seasoned full-stack web developer, I specialize in crafting
-              dynamic digital experiences from front to back.I bring a holistic
+              dynamic digital experiences from front to back. I bring a holistic
               approach to every project. From responsive designs to seamless
               functionality, I strive to create web solutions that not only meet
               but exceed expectations. Dive in to explore my diverse range of
@@ -33,7 +33,9 @@ const About = () => {
             </p>
           </div>
           <div className="bg-gray-200 h-min rounded-md mt-3 ">
-            <div className="text-center text-lg font bold">Education</div>
+            <div className="text-center text-lg font-bold bg-orange-300 rounded-md ">
+              Education
+            </div>
             <p className="w-96 mt-2 mb-4">
               Creative Academy
               <div className="text-sm text-gray-600">SLC~2016</div>
@@ -44,7 +46,9 @@ const About = () => {
             </p>
           </div>
           <div className="bg-gray-200 h-min rounded-md mt-3 ">
-            <div className="text-center text-lg font bold">Certification</div>
+            <div className="text-center text-lg font-bold bg-orange-300 rounded-md ">
+              Certification
+            </div>
             <p className="w-96 mt-2 mb-4">
               Smart InfoTech
               <div className="text-sm text-gray-600">
@@ -67,7 +71,7 @@ const About = () => {
         </div>
         <div>
           <div className="bg-gray-200 h-min rounded-md ml-5 mt-3 text-3xl text-center">
-            Skills
+            <div className="bg-orange-300 rounded-md ">Skills</div>
             <div className="flex p-3">
               <FaHtml5 className="text-7xl px-2 mx-2 text-red-700" />
               <IoLogoCss3 className="text-7xl px-2 mx-2 text-blue-700" />
@@ -84,7 +88,7 @@ const About = () => {
             </div>
           </div>
           <div className="mt-3 bg-gray-200 h-min rounded-md ml-5 mt-3 text-3xl text-center">
-            Projects
+            <div className="bg-orange-300 rounded-md ">Projects</div>
             <div>Movie Suggester</div>
             <div>Movie Suggester</div>
             <div>Movie Suggester</div>

@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import DownloadCv from "./DownloadCv";
 
 const Navbar = () => {
   return (
@@ -13,15 +14,11 @@ const Navbar = () => {
           <Link to="/about" className="px-5">
             About
           </Link>
-          <Link to="/contact" className="px-5">
-            Contact
-          </Link>
-          <Link to="/resume" className="px-5">
+
+          <button className="px-5" onClick={DownloadCv}>
             Resume
-          </Link>
-          <Link to="/education" className="px-5">
-            Education
-          </Link>
+          </button>
+
           <Link to="/projects" className="px-5">
             Projects
           </Link>
